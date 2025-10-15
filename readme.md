@@ -13,25 +13,25 @@ Create a real-time chat application using TypeScript, React, custom hooks, and W
 
 ### Custom Hook
 
-- **useChat**: Hook personalizado para manejar el estado de los mensajes y la comunicación con el servidor WebSocket.
+- **useChat**: Custom hook to handle message status and communication with the WebSocket server.
 
-### Funcionalidades
+### Features
 
-- Enviar un nuevo mensaje.
-- Recibir mensajes en tiempo real.
-- Mostrar la lista de mensajes.
+- Send a new message.
+- Receive messages in real time.
+- Display the message list.
 
-### Pruebas
+### Tests
 
-- Pruebas unitarias para los componentes y el custom hook.
+- Unit tests for components and the custom hook.
 
 ## Backend
 
-Este repositorio incluye un pequeño servidor backend que expone un endpoint websocket para tus pruebas.
+This repository includes a small backend server that exposes a websocket endpoint for your testing.
 
 ```sh
 cd backend/
 npm run start
 ```
 
-El servidor se expodrá en ws://localhost:3030
+The server will be exposed at ws://localhost:3030
