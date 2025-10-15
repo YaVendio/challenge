@@ -1,15 +1,15 @@
-# Aplicación de Chat en Tiempo Real
+# Real-Time Chat Application
 
-Crear una aplicación de chat en tiempo real utilizando TypeScript, React, custom hooks y WebSockets. La aplicación debe permitir a los usuarios enviar y recibir mensajes en tiempo real. Además, se deben escribir pruebas unitarias para los componentes y hooks utilizando Jest y React Testing Library.
+Create a real-time chat application using TypeScript, React, custom hooks, and WebSockets. The application must allow users to send and receive messages in real time. Additionally, unit tests must be written for components and hooks using Jest and the React Testing Library.
 
-## Requisitos
+## Requirements
 
-### Componentes
+### Components
 
-1. **ChatApp**: Componente principal que contiene la lógica de la aplicación.
-2. **ChatWindow**: Componente que muestra la lista de mensajes.
-3. **ChatMessage**: Componente que representa un mensaje individual.
-4. **ChatInput**: Componente para enviar nuevos mensajes.
+1. **ChatApp**: Main component that contains the application logic.
+2. **ChatWindow**: Component that displays the list of messages.
+3. **ChatMessage**: Component that represents an individual message.
+4. **ChatInput**: Component for sending new messages.
 
 ### Custom Hook
 
